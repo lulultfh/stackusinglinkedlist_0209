@@ -20,6 +20,6 @@ private:
 public:
     stack()
     {
-        
+        top = NULL; //iniatialize the stuck with a null top pointer
     }
 };
