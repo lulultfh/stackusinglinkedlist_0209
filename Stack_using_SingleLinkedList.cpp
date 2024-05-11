@@ -38,7 +38,8 @@ public:
     void pop() 
     {
         if (isEmpty()) { //step 1
-			cout << "Stack is empty." //step 1a
+			cout << "Stack is empty."; //step 1a
 		}
         cout << "Popped value: " <<top->data << endl; //step2
-};
+        top = top->next; //step 3: update the top pointer to the next node
+}
