@@ -56,6 +56,11 @@ public:
                 current = current->next;
             }
             cout << endl;
-        }
+        } //return the value of the top node
     }
-}
+
+    //isEmpty operation: check if the stack is empty
+    bool isEmpty() {
+        return top == NULL; //return true if the top pointer is NULL, indicationg an empty stack
+    }
+};
