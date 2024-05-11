@@ -12,3 +12,8 @@ public:
         next = NULL; //mengatur pointer next menjadi NULL
     }
 };
+
+class stack
+{
+
+};
