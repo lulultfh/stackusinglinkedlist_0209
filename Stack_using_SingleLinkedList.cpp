@@ -35,7 +35,10 @@ public:
     }
 
     //pop operation: remove the topmost element from the stack:
-    void pop() {
-        
-    }
+    void pop() 
+    {
+        if (isEmpty()) //step 1
+		{
+			cout << "Stack is empty." //step 1a
+		}
 };
