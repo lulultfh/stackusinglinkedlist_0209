@@ -43,4 +43,9 @@ public:
         cout << "Popped value: " << top->data << endl; //step2
         top = top->next; //step 3: update the top pointer to the next node
     }
+
+    //peek/top operation: retrieve the value of the topmost element without removing it
+    void peek() {
+        
+    }
 }
